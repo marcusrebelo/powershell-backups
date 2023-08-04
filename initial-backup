@@ -1,0 +1,4 @@
+#Robocopy comnmands
+#Copy from a drive location to another drive location commands
+#example: robocopy "sourceIPaddress\sourceLocation" "destinationDrive\destinationLocation" /E /COPY:DATO /DCOPY:DAT /R:10 /W:5 /MT:16
+robocopy "\\10.10.10.241\WinShare" "F:\Winshare Backup 1-Mar-2023" /E /COPY:DATO /DCOPY:DAT /R:10 /W:5 /MT:16
